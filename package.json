@@ -2,9 +2,12 @@
   "name": "favicon-fetch",
   "version": "0.0.1",
   "description": "Get any website's favicon",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "browser": "dist/favicon-fetch.min.js",
+  "unpkg": "dist/favicon-fetch.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "test": "node test/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/iconhorse/favicon-fetch/issues"
   },
-  "homepage": "https://github.com/iconhorse/favicon-fetch#readme"
+  "homepage": "https://favicon-fetch.icon.horse",
+  "devDependencies": {
+    "rollup": "^2.59.0",
+    "rollup-plugin-jspacker": "^1.0.3",
+    "terser": "^5.9.0"
+  }
 }
