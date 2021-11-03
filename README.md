@@ -37,6 +37,22 @@ The icon returned looks like this:
 
 ![Wikipedia icon](https://icon.horse/icon/wikipedia.org)
 
+## Use with React
+
+It's super easy to use with React. Here's a sample component:
+
+```jsx
+import faviconFetch from 'favicon-fetch'
+
+export default ({ websiteUrl }) => {
+  return (
+    <a href={websiteUrl}>
+      <img src={faviconFetch({ uri: websiteUrl })} />
+    </a>
+  )
+}
+```
+
 ## Additional options
 
 Currently, both the fallback functionality and the `size` param require an `apikey` (read about getting one [here](https://icon.horse/pro)).
