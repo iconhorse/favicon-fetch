@@ -1,0 +1,24 @@
+{
+  "name": "favicon-fetch",
+  "version": "0.0.1",
+  "description": "Get any website's favicon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iconhorse/favicon-fetch.git"
+  },
+  "keywords": [
+    "favicon",
+    "icon",
+    "website"
+  ],
+  "author": "mtimofiiv <git@fiiv.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iconhorse/favicon-fetch/issues"
+  },
+  "homepage": "https://github.com/iconhorse/favicon-fetch#readme"
+}
