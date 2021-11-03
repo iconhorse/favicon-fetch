@@ -1,6 +1,6 @@
 {
   "name": "favicon-fetch",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Get any website's favicon",
   "main": "lib/index.js",
   "browser": "dist/favicon-fetch.min.js",
@@ -28,5 +28,9 @@
     "rollup": "^2.59.0",
     "rollup-plugin-jspacker": "^1.0.3",
     "terser": "^5.9.0"
-  }
+  },
+  "files": [
+    "lib",
+    "dist"
+  ]
 }
